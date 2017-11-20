@@ -7,10 +7,10 @@ Proposed [JSON data schema](https://raw.githubusercontent.com/nkou/react-questio
 
 ## Technologies used
 
--React [Create React App](https://github.com/facebookincubator/create-react-app)
--[Redux](https://redux.js.org/)
--[Immutable.JS](https://facebook.github.io/immutable-js/)
--[React Bootstrap](https://react-bootstrap.github.io/)
+- React [Create React App](https://github.com/facebookincubator/create-react-app)
+- [Redux](https://redux.js.org/)
+- [Immutable.JS](https://facebook.github.io/immutable-js/)
+- [React Bootstrap](https://react-bootstrap.github.io/)
 
 ## Folder Structure
 
