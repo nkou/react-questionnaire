@@ -1,0 +1,47 @@
+{
+  "definitions": {
+    "questionnaire": {
+      "type": "array",
+      "items":  {
+        "$ref": "#/definitions/question"
+      }
+    },
+    "question": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "text": {
+          "type": "string"
+        },
+        "answers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/answer"
+          }
+        },
+        "limitAnswers": {
+          "type": "boolean"
+        },
+        "minAnswers": {
+          "type": "integer"
+        },
+        "maxAnswers": {
+          "type": "integer"
+        }
+      }
+    },
+    "answer": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "text": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

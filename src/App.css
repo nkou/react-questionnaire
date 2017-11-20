@@ -1,0 +1,46 @@
+/* Base styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h3 {
+  margin: 1rem auto;
+}
+
+.App {
+  margin: 2.5rem auto;
+}
+
+
+/* Bootstrap overrides */
+
+fieldset {
+  border: 1px solid #eee;
+  margin: 0 0 1rem;
+  padding: 1.25rem;
+}
+
+legend {
+  border: 0 none;
+  margin: 0;
+  padding: 0 1rem;
+  width: auto;
+}
+
+.popover-content {
+  padding: 0.75rem;
+  text-align: center;
+}
+
+/* Bootstrap additions */
+
+.col--align-right {
+  text-align: right;
+}
+
+.btn--side-margins {
+  margin: 0 0.5rem;
+}
