@@ -1,4 +1,4 @@
-This is a questionnaire creator application build with React. 
+An interactive web dashboard app that lets users create their own questionnaires, built with React. 
 
 User can add up to 10 questions, re-ordering and editing the question prompts.
 For each question, user can provide answers and set answer restrictions.
