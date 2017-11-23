@@ -1,5 +1,4 @@
 import React, { PureComponent } from 'react'
-// import Routes from './util/Routes'
 import Questionnaire from './containers/Questionnaire'
 import './App.css'
 

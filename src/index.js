@@ -5,10 +5,7 @@ import { Provider } from 'react-redux'
 import App from './App'
 import reducer from './reducers'
 import registerServiceWorker from './registerServiceWorker'
-
-// import { BrowserRouter } from 'react-router-dom'
-// {/*<BrowserRouter>*/}
-//   {/* BrowserRouter uses the browser’s History API to create real URLs. It renders our App component allowing us to create the routes we need inside that.*/}
+import 'bootstrap/dist/css/bootstrap.css'
 
 const store = createStore(reducer)
 
